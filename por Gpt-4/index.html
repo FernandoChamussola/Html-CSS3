@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('OIG1.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .login-container {
+            width: 300px;
+            padding: 16px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 100px;
+            border-radius: 8px;
+        }
+        .login-container input[type=text], .login-container input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .login-container button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .login-container button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <label for="uname"><b>Nome de usuário</b></label>
+        <input type="text" placeholder="Insira o nome de usuário" name="uname" required>
+
+        <label for="psw"><b>Senha</b></label>
+        <input type="password" placeholder="Insira a senha" name="psw" required>
+
+        <button type="submit">Login</button>
+    </div>
+</body>
+</html>

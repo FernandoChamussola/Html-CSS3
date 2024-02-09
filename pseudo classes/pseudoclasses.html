@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+div{
+    background-color: rgb(67, 212, 38);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border:1px solid black;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+div:hover{
+    background-color: black;
+}
+div > p{
+    display: none;
+}
+div:hover> p{
+    display: block;
+    width: 200px;
+    
+    
+}
+    </style>
+</head>
+<body>
+    <div>
+        Arroz
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio veniam eius pariatur sapiente maiores.</p>
+    </div>
+    <div>
+        Feijao
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos labore deserunt numquam!</p>
+
+    </div>
+    <div>
+        Peixe
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis amet cumque voluptate rerum,</p>
+    </div>
+
+
+    
+    
+</body>
+</html>
